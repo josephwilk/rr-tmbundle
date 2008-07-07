@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>RR</string>
+	<key>ordering</key>
+	<array>
+		<string>D3AFF1CE-E7F4-4255-9351-B3A041CB79AA</string>
+		<string>4847163E-F1DF-4219-9B0A-970333545094</string>
+		<string>3FD1A9EC-6AEB-4407-B49E-80F317579C2E</string>
+		<string>1A2C2CA2-E50B-4544-82D8-BBBCAADEDEE8</string>
+		<string>5BEF0411-D1F7-4D2D-BF70-4B600648CDAB</string>
+	</array>
+	<key>uuid</key>
+	<string>5CB9896B-10D8-4B08-A94B-1C9517D41DB3</string>
+</dict>
+</plist>
