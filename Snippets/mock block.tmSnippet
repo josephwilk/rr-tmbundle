@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mock.proxy(${1:mock_name}).${2:method}${3:(${4:anything|numeric|boolean|is_a()|duck_type()})}${5: do |result|
-  $6
-end}
+	<string>mock($1) do |${2:m}|
+   $2.$3
+end
 $0
 </string>
 	<key>name</key>
-	<string>mock.proxy</string>
+	<string>mock block</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>rmpr</string>
+	<string>rbmoc</string>
 	<key>uuid</key>
-	<string>1A2C2CA2-E50B-4544-82D8-BBBCAADEDEE8</string>
+	<string>345A1BF4-83DD-4350-96AE-78B193C5C208</string>
 </dict>
 </plist>

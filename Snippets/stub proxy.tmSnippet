@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mock.stub(${1:stub_name}).${2:method}${3:(${4:params})}${5: do |result|
+	<string>mock.stub(${1:stub_name}).${2:method}${3:(${4:anything|numeric|boolean|is_a()|duck_type()})}${5: do |result|
   $6
 end}
 $0

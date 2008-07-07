@@ -3,8 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mock(${1:mock_name}).${2:method}${3:(${4:params})}${5:{${6:return}\}}
-$0</string>
+	<string>mock(${1:mock_name}).${2:method}${3:(${4:anything|numeric|boolean|is_a()|duck_type()})}${5:{${6:return_value}\}}
+$0
+
+</string>
 	<key>name</key>
 	<string>mock</string>
 	<key>scope</key>
