@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+if ENV['TM_CURRENT_LINE'] =~ /(.*)(@)(.*)/ #from instance
+  stub=$2+$3
+  puts %Q(#{$1+stub}= #{$3.capitalize}.new)
+  
+  puts %Q(#{$1}stub(#{stub}).${1:method}${2:(${3:anything|numeric|boolean|is_a()|duck_type()})}${4:{${5:return_value}\}}
+#{$1}$0)
+
+elsif ENV['TM_CURRENT_LINE'] =~ /(\W*)([^@\s]*)(.*)/ #from Class
+  stub="@#{$2.downcase}"
+  puts %Q(#{$1}${1:@${2:#{$2.downcase}}}= #{$2}.new)
+
+  puts %Q(#{$1}stub(${1}).${3:method}${4:(${5:anything|numeric|boolean|is_a()|duck_type()})}${6:{${7:return_value}\}}
+#{$1}$0)
+
+end</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>~@S</string>
+	<key>name</key>
+	<string>build stub</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>uuid</key>
+	<string>A02E7A15-4F54-4349-BEF4-CE45F56EB994</string>
+</dict>
+</plist>
