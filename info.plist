@@ -2,10 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>D3AFF1CE-E7F4-4255-9351-B3A041CB79AA</string>
+			<string>345A1BF4-83DD-4350-96AE-78B193C5C208</string>
+			<string>1A2C2CA2-E50B-4544-82D8-BBBCAADEDEE8</string>
+			<string>4847163E-F1DF-4219-9B0A-970333545094</string>
+			<string>29B078D3-A263-41A8-BEA8-DE4B18DECFB1</string>
+			<string>5BEF0411-D1F7-4D2D-BF70-4B600648CDAB</string>
+			<string>3FD1A9EC-6AEB-4407-B49E-80F317579C2E</string>
+			<string>48D9CBF2-6CC3-4553-8FAF-35F661149BC8</string>
+			<string>A02E7A15-4F54-4349-BEF4-CE45F56EB994</string>
+			<string>7B947182-3731-4907-A30F-468462F6DE8D</string>
+			<string>11F9BC61-EBB3-4048-9913-9264DA248F93</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
 	<key>name</key>
 	<string>RR</string>
 	<key>ordering</key>
 	<array>
+		<string>9CEF9FD3-0AEA-4387-BB95-E2A8B7E895A5</string>
 		<string>48D9CBF2-6CC3-4553-8FAF-35F661149BC8</string>
 		<string>A02E7A15-4F54-4349-BEF4-CE45F56EB994</string>
 		<string>D3AFF1CE-E7F4-4255-9351-B3A041CB79AA</string>
