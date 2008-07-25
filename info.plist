@@ -16,10 +16,24 @@
 			<string>48D9CBF2-6CC3-4553-8FAF-35F661149BC8</string>
 			<string>A02E7A15-4F54-4349-BEF4-CE45F56EB994</string>
 			<string>7B947182-3731-4907-A30F-468462F6DE8D</string>
-			<string>11F9BC61-EBB3-4048-9913-9264DA248F93</string>
+			<string>90A65A3C-E77E-47D2-9131-FE61CC64040A</string>
+			<string>9CEF9FD3-0AEA-4387-BB95-E2A8B7E895A5</string>
 		</array>
 		<key>submenus</key>
-		<dict/>
+		<dict>
+			<key>90A65A3C-E77E-47D2-9131-FE61CC64040A</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>CA072FCD-D21F-4213-9847-A29F6C26E37A</string>
+					<string>ED1FAC9F-BF13-4B40-AFAA-90689A50492D</string>
+					<string>8B9C6894-650B-4BD5-8FCB-EFCD50C3AE28</string>
+					<string>3DCC2A36-59C6-48EC-8DCB-2987D28F9010</string>
+				</array>
+				<key>name</key>
+				<string>Response Counts</string>
+			</dict>
+		</dict>
 	</dict>
 	<key>name</key>
 	<string>RR</string>
@@ -36,6 +50,10 @@
 		<string>7B947182-3731-4907-A30F-468462F6DE8D</string>
 		<string>345A1BF4-83DD-4350-96AE-78B193C5C208</string>
 		<string>29B078D3-A263-41A8-BEA8-DE4B18DECFB1</string>
+		<string>3DCC2A36-59C6-48EC-8DCB-2987D28F9010</string>
+		<string>8B9C6894-650B-4BD5-8FCB-EFCD50C3AE28</string>
+		<string>CA072FCD-D21F-4213-9847-A29F6C26E37A</string>
+		<string>ED1FAC9F-BF13-4B40-AFAA-90689A50492D</string>
 	</array>
 	<key>uuid</key>
 	<string>5CB9896B-10D8-4B08-A94B-1C9517D41DB3</string>
